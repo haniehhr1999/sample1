@@ -146,6 +146,30 @@ section button:hover{
     background-color: rgb(175, 0, 0);
     display: inline-block;
 }
-.pedar{
-    
+.dark-bg{
+    background-image: url(assets/teamwork-1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.475);
+    background-blend-mode: multiply;
+    height: 400px;
+    padding: 100px 150px;
 }
+.p1{
+    font-size: 30px;
+}
+.box-white{
+    width: 80%;
+    margin: auto;
+    margin-top: -50px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.519);
+    background-color: #fff;
+}
+.ic-left{
+    margin-right: 15px;
+}
+.s-up{
+    font-size: 25px;
+}
+
