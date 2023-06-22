@@ -98,7 +98,6 @@ section button:hover{
     position: absolute;
     bottom: -35px;
     right: 40%;
-    padding: ;
     background-color: rgb(175, 0, 0);
     border: 5px solid #fff;
 }
@@ -115,4 +114,38 @@ section button:hover{
 }
 .right-side , .left-side{
     width: 50%;
+}
+.khali{
+    width: 70px;
+    height: 0;
+    border-top: 2px solid rgb(175, 0, 0);
+}
+.events{
+    background-image: url(assets/bg.webp);
+}
+.box-ev{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.186);
+    border-radius: 10px 10px 0 0;
+    width: 300px;
+    background-color: #fff;
+}
+.box-ev img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.box-ev h4{
+    font-size: 17px;
+}
+.box-ev a{
+    color: rgb(175, 0, 0);
+}
+.loc img{
+    width: 20px;
+}
+.btn--red {
+    background-color: rgb(175, 0, 0);
+    display: inline-block;
+}
+.pedar{
+    
 }
