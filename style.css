@@ -82,3 +82,15 @@ section button:hover{
     background-color: rgb(255, 255, 255);
     color: rgb(175, 0, 0);
 }
+.box-container{
+    margin-top: -100px;
+}
+.box{
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.332);
+    border-top: 10px solid rgb(175, 0, 0);
+    background-color: #fff;
+}
+.box a{
+    color: rgb(175, 0, 0);
+}
