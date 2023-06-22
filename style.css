@@ -94,3 +94,25 @@ section button:hover{
 .box a{
     color: rgb(175, 0, 0);
 }
+.bg-reed{
+    position: absolute;
+    bottom: -35px;
+    right: 40%;
+    padding: ;
+    background-color: rgb(175, 0, 0);
+    border: 5px solid #fff;
+}
+.brdr{
+    width: 70px;
+    height: 0;
+    border-top: 2px solid rgb(175, 0, 0);
+}
+.desc{
+    padding: 0 15rem;
+}
+.num , .txt{
+    font-size: 20px;
+}
+.right-side , .left-side{
+    width: 50%;
+}
