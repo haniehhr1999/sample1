@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.color-red{
+    background-color: rgb(175, 0, 0);
+    padding: 10px 100px;
+}
+.color-white{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 100px;
+}
+.mdi-menu{
+    color: rgb(175, 0, 0);
+}
+button .bg-light{
+    color: rgb(175, 0, 0) !important;
+}
+ul{
+    /* height: 100%; */
+    vertical-align: middle;
+}
+li{
+    transition: 0.5s;
+}
+li:hover{
+    color: rgb(255, 50, 50);
+}
+button:hover{
+    background-color: rgb(175, 0, 0);
+    color: white;
+}
