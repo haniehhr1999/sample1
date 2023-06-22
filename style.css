@@ -2,9 +2,16 @@
     margin: 0;
     padding: 0;
 }
+header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 33;
+}
 .color-red{
     background-color: rgb(175, 0, 0);
     padding: 10px 100px;
+    height: 60px;
 }
 .color-white{
     background-color: rgb(255, 255, 255);
@@ -16,17 +23,62 @@
 button .bg-light{
     color: rgb(175, 0, 0) !important;
 }
-ul{
-    /* height: 100%; */
-    vertical-align: middle;
-}
 li{
     transition: 0.5s;
 }
 li:hover{
     color: rgb(255, 50, 50);
 }
-button:hover{
+header button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(175, 0, 0);
+}
+header button:hover{
     background-color: rgb(175, 0, 0);
     color: white;
+}
+section.bgImg{
+    background-image: url(assets/m1.webp);
+    background-size: cover;
+    height: calc(100vh - 133px);
+}
+section span{
+    color: rgb(175, 0, 0);
+
+}
+.text{
+    margin-left: 8rem;
+}
+.mdi-arrow-right{
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.381);
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+.mdi-arrow-right:hover{
+    background-color: rgb(175, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.mdi-arrow-left{
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.381);
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+.mdi-arrow-left:hover{
+    background-color: rgb(175, 0, 0);
+    color: rgb(255, 255, 255);
+}
+section button{
+    background-color: rgb(175, 0, 0);
+    border: 2px solid rgb(175, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    border: none;
+}
+section button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(175, 0, 0);
 }
