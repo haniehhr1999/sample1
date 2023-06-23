@@ -183,4 +183,41 @@ section button:hover{
 .g-up button{
     height: 35px;
 }
+/* footer ======================================= */
+.br-lft{
+    border-left: 5px solid rgb(175, 0, 0);
+}
+.dokme{
+    outline: none;
+    border: none;
+    background-color: rgb(175, 0, 0);
+    position: absolute;
+    right: 7px;
+    top: 20%;
+}
+.ft4 .pedar3{
+    position: relative;
+}
+footer a{
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+footer a:hover{
+    color: rgb(175, 0, 0);
+}
+.qhermz{
+    color: rgb(175, 0, 0);
+}
+.felesh{
+    background-color: rgb(175, 0, 0);
+}
+.del span{
+    transition: 0.5s;
+}
+.del span:hover{
+    color: rgb(175, 0, 0);
+}
+footer input{
+    width: 100%;
+}
 
