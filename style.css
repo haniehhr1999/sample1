@@ -130,7 +130,8 @@ section button:hover{
 .box-ev{
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.186);
     border-radius: 10px 10px 0 0;
-    width: 300px;
+    max-width: 300px;
+    /* min-width: 200px; */
     background-color: #fff;
 }
 .box-ev img{
@@ -178,6 +179,8 @@ section button:hover{
 }
 .sm-box{
     /* width: 500px; */
+    /* height: 106px;
+    width: 233.48px; */
     box-shadow:  0 0 8px rgba(0, 0, 0, 0.159);
 }
 .g-up button{
@@ -220,4 +223,38 @@ footer a:hover{
 footer input{
     width: 100%;
 }
+
+@media screen and (min-width: 0px) and ( max-width: 767px){
+    .dark-bg{
+        padding-left: 80px;
+    }
+    .box-container{
+        margin-top: -50px;
+    }
+    /* .left-side{
+        position: static;
+    }
+    .bg-reed{
+        position: static;
+    } */
+    .desc{
+        padding: 0 5rem;
+    }
+}
+@media screen and (min-width: 768px) and ( max-width: 991px){ 
+    .sm-box{
+        width: 233.48px;
+    }
+    .box-container{
+        margin-top: -80px;
+    }
+}
+@media screen and (min-width: 992px){ 
+    .sm-box{
+        width: 401.1px;
+    }
+}
+/* @media screen and (min-width: 768px){ 
+    
+} */
 
