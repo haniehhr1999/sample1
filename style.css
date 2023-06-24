@@ -20,6 +20,18 @@ header{
 .mdi-menu{
     color: rgb(175, 0, 0);
 }
+.menu-show{
+    position: absolute;
+    
+    z-index: 9999353;
+    width: 0;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.299);
+    transition: 1s ease-in-out;
+}
+.menuLi{
+    opacity: 0;
+}
 button .bg-light{
     color: rgb(175, 0, 0) !important;
 }
@@ -116,6 +128,10 @@ section button:hover{
 }
 /* .right-side , .left-side{
     width: 50%;
+} */
+/* .left-side img{
+    min-width: 300px;
+    min-width: 350px;
 } */
 .khali{
     width: 70px;
@@ -264,6 +280,9 @@ footer input{
     .desc{
         padding: 0 7rem;
     }
+    .left-side img{
+        max-width: 300px;
+    }
 }
 @media screen and (min-width: 992px){ 
     .sm-box{
@@ -271,6 +290,9 @@ footer input{
     }
     .desc{
         padding: 0 15rem;
+    }
+    .left-side img{
+        max-width: 450px;
     }
 }
 /* @media screen and (min-width: 768px){ 

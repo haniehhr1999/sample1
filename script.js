@@ -35,3 +35,14 @@ arrLeft.addEventListener('click' , function(){
         y = 1
     }
 })
+
+// for slider ========================================================================
+var menuShow = document.querySelector('.menu-show')
+var menuIcon = document.querySelector('.mdi-menu')
+var menuLi = document.querySelectorAll('.menuLi')
+menuIcon.addEventListener('click' , function(){
+    menuShow.style.width = '200px'
+    menuLi.forEach(element => {
+        element.style.opacity = 1
+    });
+})
