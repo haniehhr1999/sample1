@@ -40,6 +40,7 @@ header button:hover{
 section.bgImg{
     background-image: url(assets/m1.webp);
     background-size: cover;
+    background-position: right;
     height: calc(100vh - 133px);
 }
 section span{
@@ -97,7 +98,7 @@ section button:hover{
 .bg-reed{
     position: absolute;
     bottom: -35px;
-    right: 40%;
+    left: 30%;
     background-color: rgb(175, 0, 0);
     border: 5px solid #fff;
 }
@@ -106,9 +107,6 @@ section button:hover{
     height: 0;
     border-top: 2px solid rgb(175, 0, 0);
 }
-.desc{
-    padding: 0 15rem;
-}
 .desc img{
     border: 2px solid #fff;
     padding: 7px;
@@ -116,9 +114,9 @@ section button:hover{
 .num , .txt{
     font-size: 20px;
 }
-.right-side , .left-side{
+/* .right-side , .left-side{
     width: 50%;
-}
+} */
 .khali{
     width: 70px;
     height: 0;
@@ -225,33 +223,54 @@ footer input{
 }
 
 @media screen and (min-width: 0px) and ( max-width: 767px){
+    /* header ul{
+        display: none !important;
+    } */
     .dark-bg{
         padding-left: 80px;
     }
     .box-container{
         margin-top: -50px;
     }
-    /* .left-side{
-        position: static;
+    .color-red{
+        padding: 10px 50px;
     }
-    .bg-reed{
-        position: static;
-    } */
+    .color-white{
+        padding: 20px 50px;
+    }
+    section.bgImg{
+        background-color: rgba(0, 0, 0, 0.638);
+        color: #fff;
+        background-blend-mode: multiply;
+    }
     .desc{
         padding: 0 5rem;
     }
+    .bg-reed{
+        bottom: 0px;
+        left: 30%;
+    }
 }
 @media screen and (min-width: 768px) and ( max-width: 991px){ 
+    /* header ul{
+        display: flex !important;
+    } */
     .sm-box{
         width: 233.48px;
     }
     .box-container{
         margin-top: -80px;
     }
+    .desc{
+        padding: 0 7rem;
+    }
 }
 @media screen and (min-width: 992px){ 
     .sm-box{
         width: 401.1px;
+    }
+    .desc{
+        padding: 0 15rem;
     }
 }
 /* @media screen and (min-width: 768px){ 
